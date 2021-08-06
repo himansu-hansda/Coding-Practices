@@ -1,12 +1,12 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-long long fibo(int n,vector <long long>& memory)
+long long fibo(int n,vector <long long>& memo)
 {
 	if(n<=2) return 1;
-    if(memory[n]!=0) return memory[n];
-    memory[n]= fibo(n-1,memory) + fibo(n-2,memory);
-    return memory[n];
+    if(memo[n]!=0) return memo[n];
+    memo[n]= fibo(n-1,memo) + fibo(n-2,memo);
+    return memo[n];
 }
 int main()
 {
@@ -14,5 +14,4 @@ int main()
 	cin>>n;
     vector<long long> v(n+1); 
     cout<<fibo(n,v)<<" ";
-    //cout<<fibo(50,v);
 }
