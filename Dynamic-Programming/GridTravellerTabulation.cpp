@@ -14,7 +14,7 @@ long long gT(int n,int m){
             if(i+1<=n) arr[i+1][j]+=current;
         }
     }
-    return arr[n][m];
+    return arr[n][m];//
 
 }
 int main()

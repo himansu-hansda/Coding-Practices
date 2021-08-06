@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-using namespace std;
+using namespace std;//
 long long fibo(int n,vector <long long>& memo)
 {
 	if(n<=2) return 1;

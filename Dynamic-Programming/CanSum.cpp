@@ -2,7 +2,7 @@
 #include<string.h>
 #include<map>
 #include<vector>
-using namespace std;
+using namespace std; //
 string canSum(int num,vector<int>& arr,map<int,string>& memo)
 {
     map<int,string>::iterator itr=memo.find(num);

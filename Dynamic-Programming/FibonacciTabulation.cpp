@@ -2,7 +2,7 @@
 #include<string.h>
 #include<map>
 #include<vector>
-using namespace std;
+using namespace std;//
 long long fib(int num){
     vector<long long> arr(num+1,0);
     arr[1]=1;
