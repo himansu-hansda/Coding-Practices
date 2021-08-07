@@ -19,6 +19,8 @@ long long gT(int n,int m){
 }
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     cout<<gT(1,1)<<endl;
     cout<<gT(2,3)<<endl;
     cout<<gT(3,2)<<endl;

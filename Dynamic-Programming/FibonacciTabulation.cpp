@@ -16,6 +16,8 @@ long long fib(int num){
 }
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     cout<<fib(6)<<endl;
     cout<<fib(7)<<endl;
     cout<<fib(8)<<endl;

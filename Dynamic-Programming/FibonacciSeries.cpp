@@ -10,6 +10,8 @@ long long fibo(int n,vector <long long>& memo)
 }
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 	int n;
 	cin>>n;
     vector<long long> v(n+1); 

@@ -22,6 +22,8 @@ long long gridTraveller(int m,int n,map<string,long long>& memo)
 }
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 	int n,m;
 	cin>>n>>m;
     map<string,long long> mp;

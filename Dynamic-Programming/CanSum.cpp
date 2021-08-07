@@ -25,6 +25,8 @@ string canSum(int num,vector<int>& arr,map<int,string>& memo)
 }
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     vector<int> arr;
     map<int,string> memo;
 	int n,m;
